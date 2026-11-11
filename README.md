@@ -138,8 +138,8 @@ Version 1.0.0. The solution, specification, and extension files are complete, an
 
 ## License
 
-[Add license here]
+SAP
 
 ## Author
 
-[Add name and contact here]
+Agent Extension developer on SAP Practise System by Sharfunisa Shajahan
