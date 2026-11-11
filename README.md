@@ -61,6 +61,16 @@ The difference is 500.00 EUR. Please correct the line items and try again.
                 └── zzz_post_teardown.yaml
 ```
 
+## Demo video
+
+Watch the extension being built and tested in SAP Joule Studio: [https://youtu.be/aiIxA2E-SLk](https://youtu.be/aiIxA2E-SLk)
+
+## Screenshots
+
+The extension was built in SAP Joule Studio. The Requirements view shows the PRD that drives the build:
+
+![Joule Studio Requirements view showing the Product Requirements Document](images/joule-studio-requirements-prd.png)
+
 ## Requirements
 
 - SAP S/4HANA Cloud (Public or Private Edition) with General Ledger Accounting
@@ -95,6 +105,10 @@ Coverage:
 - **Test cases:** 5 of 15 allowed, covering correctness (4 scenarios) and groundedness plus digression (1 combined).
 - **Traceability:** All 5 source requirements map to requirements, and all 5 map to tests, with parity in both directions.
 
+The evaluation summary from Joule Studio lists the scenarios and coverage:
+
+![Evaluation summary with the five test scenarios, guardrails tested, and coverage](images/eval-summary-test-scenarios.png)
+
 The `000_pre_setup` and `zzz_post_teardown` files are optional setup and cleanup steps. They collect trace data but are not scored.
 
 The `tool_requirements` list is intentionally empty because the extension adds no tools.
@@ -124,7 +138,7 @@ Version 1.0.0. The solution, specification, and extension files are complete, an
 
 ## License
 
-SAP
+[Add license here]
 
 ## Author
 
